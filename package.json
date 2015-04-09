@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "http://openopensource.org",
   "scripts": {
-    "start": "node -e \"fs = require('fs'); b = require('brucedown'); b(fs.readFileSync(__dirname + '/index.md', 'utf8'), function (err, html) { if (err) throw err; fs.writeFileSync('index.html',fs.readFileSync('index.html', 'utf8').replace(/<body>[\\\\s\\\\S]*<\\\\/body>/gmi, '<body>\\\\n\\\\n' + html + '\\\\n</body>'), 'utf8') });\""
+    "prepublish": "make prepublish",
+    "start": "make start",
+    "clean": "make clean"
   },
-  "dependencies": {
-    "brucedown": "^0.1.1"
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "marked": "^0.3.3"
   }
 }
