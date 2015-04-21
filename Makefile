@@ -18,4 +18,3 @@ clean:
 	-rm build.html
 
 .PHONY: prepublish start clean
-
