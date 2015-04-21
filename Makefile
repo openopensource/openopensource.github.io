@@ -1,4 +1,5 @@
 prepublish: index.html
+
 start: prepublish
 	http-server
 
@@ -17,3 +18,4 @@ clean:
 	-rm build.html
 
 .PHONY: prepublish start clean
+
