@@ -1,4 +1,4 @@
-# &lt;project name&gt; is an [OPEN Open Source Project](http://openopensource.org/)
+# &lt;project name&gt; is an [OPEN Open Source Project](https://openopensource.github.io/)
 
 -----------------------------------------
 

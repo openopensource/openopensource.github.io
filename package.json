@@ -1,7 +1,7 @@
 {
   "name": "openopensource.github.io",
   "version": "0.0.0",
-  "description": "http://openopensource.org",
+  "description": "https://openopensource.github.io/",
   "scripts": {
     "prepublish": "make prepublish",
     "start": "make start",
